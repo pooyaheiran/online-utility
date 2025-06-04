@@ -77,7 +77,7 @@ a{
 
 .login_btn {
     background: rgb(250, 20, 154) ;
-    background: linear-gradient(90deg,rgb(255, 221, 98)0%,rgb(254, 86, 128)100%);
+    background: linear-gradient(90deg,rgb(255, 98, 187)0%,rgb(254, 86, 128)100%);
     color: white;
     border: none;
     border-radius: 8px;
