@@ -1,13 +1,9 @@
-@font-face {
-    font-family: vazir;
-    src: url("../font/Vazirmatn/Vazirmatn-VariableFont_wght.ttf");
-}
 
 
 *{
     box-sizing: border-box;
     color: #2c2c2c;
-    font-family: vazir;
+    font-family: Arial, Helvetica, sans-serif;
     
    
 }
@@ -38,7 +34,7 @@ a{
     margin: 0 auto;
     height: 70px;
     background-color: rgb(231, 231, 231);
-    border-radius: 8px;
+    border-radius: 4px;
     
     
     
@@ -55,7 +51,7 @@ a{
 
 
 .header-elements {
-    float: right;
+    float: left;
     margin-right: 15px;
     
 }
@@ -71,54 +67,7 @@ a{
 }
 
 .header-elements li:hover{
-    background-color: #d4d3d3;
+    background-color: #dfdfdf;
     border-radius: 8px;
 }
 
-.login_btn {
-    background: rgb(250, 20, 154) ;
-    background: linear-gradient(90deg,rgb(255, 213, 98)0%,rgb(254, 86, 128)100%);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.signup_btn {
-    background: rgb(0, 203, 193) ;
-    background: linear-gradient(90deg,rgb(57, 214, 234)0%,rgb(0, 128, 208)100%);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 5px 20px;
-    cursor: pointer;
-    
-}
-
-.login_btn:hover{
-    background-color: #00b2f2;
-}
-
-.signup_btn:hover{
-    background-color: #f503a8;
-}
-
-
-.page_info {
-    width: 98%;
-    height: 300px;
-    background: rgb(20,20,250) ;
-    background: linear-gradient(90deg,rgb(50, 200, 172)0%,rgb(0, 159, 208)100%);
-    margin-left: 15px;
-    margin-top:20px;
-    border-radius: 12px;
-}
-
-.page_info_r{
-    width: 50%;
-    height: 200px;
-    /* float: right; */
-    background-color: #434343;
-}

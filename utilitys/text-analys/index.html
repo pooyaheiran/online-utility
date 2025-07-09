@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .containor {
+        text-align: center;
+    }
+    #inputText {
+        width: 1000px;
+        height: 500px;
+        background-color: rgb(242, 242, 254);
+    }
+    .check {
+        background-color: rgb(207, 206, 206);
+        border-radius: 4px;
+        border: none;
+        width: 70px;
+        height: 30px;
+    }
+
+    .homebut {
+        background-color: #96f869;
+        width: 75px;
+        height: 30px;
+        border: none;
+        border-radius: 4px;
+    }
+
+</style>
+
+
+<body>
+    
+    <a href="/index.html"><button class="homebut">home</button></a>
+
+    <div class="containor">
+
+        <label for="inputText">simple text analyer</label>
+        <br>
+        <textarea type="text" id="inputText" name="inputText" placeholder=" enter your text..."></textarea>
+        <br>
+        <button class="check" onclick="analyz()">analyz</button>
+        <br>
+        <p id="showLen"></p>
+        <p id="showSpace"></p>
+        <p id="showVowel"></p>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
