@@ -1,13 +1,7 @@
 body {
     background-color:#ffffff;
 }
-.homebut {
-    background-color: #96f869;
-    width: 75px;
-    height: 30px;
-    border: none;
-    border-radius: 4px;
-}
+
 .show {
     display: flex;
     justify-self: center;
